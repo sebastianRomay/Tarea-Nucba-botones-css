@@ -1,0 +1,60 @@
+.botones{
+    margin: auto;
+}
+
+.redondo {
+    border: none;
+    border-radius: 50px;
+    background-color: #00aaff;
+    color: white;
+    height: 80px;
+    width: 80px;
+    font-size: 40px;
+    /* text-align: center; */
+    margin: 50px;
+}
+
+.redondo:active {
+    background-color: lightgreen;
+}
+
+.redondo:hover {
+    color: black;
+}
+
+.rectangular {
+    border: none;
+    border-radius: 3px;
+    width: 160px;
+    height: 50px;
+    font-size: 25px;
+    background-color: #00aaff;
+    color: white;
+    margin: 50px;
+}
+
+.rectangular:active {
+    background-color: lightgreen;
+}
+
+.rectangular:hover {
+    color: black;
+}
+
+.transparente {
+    width: 160px;
+    height: 50px;
+    font-size: 25px;
+    color: #00aaff;
+    margin: 50px;
+    background: none;
+    border: none;
+}
+
+.transparente:active {
+    background-color: lightgreen;
+}
+
+.transparente:hover {
+    color: black;
+}
