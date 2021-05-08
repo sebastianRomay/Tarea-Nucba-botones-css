@@ -58,3 +58,23 @@
 .transparente:hover {
     color: black;
 }
+
+.libre {
+        border: black dotted 2.5px;
+        border-radius: 50px;
+        background-color: #ff0000;
+        color: white;
+        height: 80px;
+        width: 80px;
+        font-size: 20px;
+        margin: 50px;
+}
+
+.libre:hover {
+    background: orange;
+    transition: 0.3s;
+  }
+
+  .libre:active {
+      opacity: 0;
+  }
